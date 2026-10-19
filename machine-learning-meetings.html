@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<!--
+    Adapted from Forty by HTML5 UP (https://html5up.net/forty).
+    Original design licensed under Creative Commons Attribution 3.0.
+    See LICENSE.txt and original template credits in the footer.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Turning data into evidence through modelling, evaluation and critical reflection." name="description"/>
+<meta content="#171d32" name="theme-color"/>
+<title>Group meeting records | MSc AI Portfolio</title>
+<link href="assets/css/main.css" rel="stylesheet"/>
+<link href="assets/css/portfolio.css" rel="stylesheet"/>
+<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+</head>
+<body class="is-preload page-module">
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="wrapper">
+<header class="alt style2" id="header">
+<a class="logo" href="index.html"><strong>DJ</strong> <span>MSc Artificial Intelligence</span></a>
+<nav><a aria-label="Open navigation menu" href="#menu">Menu</a></nav>
+</header>
+<nav aria-label="Main navigation" id="menu">
+<ul class="links">
+<li><a href="index.html">Home / All modules</a></li>
+<li><a href="launch-into-computing.html">Launch into Computing</a></li><li><a href="understanding-artificial-intelligence.html">Understanding Artificial Intelligence</a></li><li><a href="numerical-analysis.html">Numerical Analysis</a></li><li><a href="intelligent-agents.html">Intelligent Agents</a></li><li><a href="machine-learning.html">Machine Learning</a></li> <li><a href="landing.html">About me</a></li>
+<li><a href="generic.html">Portfolio approach</a></li>
+</ul>
+</nav>
+<section class="style2 portfolio-module-banner module-five" id="banner">
+<div class="inner">
+<span class="image"><img alt="" src="images/pic05.jpg"/></span>
+<p class="eyebrow">UNIT 06 / COLLABORATION</p>
+<header class="major"><h1>Group meeting records</h1></header>
+<div class="content"><p>Six meetings showing decisions, role allocation, PR reviews, scope changes and submission preparation.</p></div>
+</div>
+</section>
+<main id="main"><section class="module-work"><div class="inner"><div class="section-head"><div><p class="eyebrow">Machine Learning / Supporting evidence</p><header class="major"><h2>Group meeting records</h2></header></div><p>Six meetings showing decisions, role allocation, PR reviews, scope changes and submission preparation.</p></div><p class="overview-lead">The following records summarise six group meetings. These are team records, not claims that I personally completed every action listed. Explicitly assigned work is attributed to its owner.</p><p><a class="button" href="https://github.com/julesrif/ML-Airbnb-Business-Analysis" rel="noopener noreferrer" target="_blank">View project repository ↗</a> <a class="button" href="https://github.com/julesrif/ML-Airbnb-Business-Analysis/pull/26" rel="noopener noreferrer" target="_blank">My K-means PR #26 ↗</a></p><article class="portfolio-evidence-record" id="meeting-1"><p class="unit-label">MEETING 01 / UNIT 06</p><h3>Meeting 1 — Kickoff</h3><h4>Project approach</h4><ul><li>Selected Track 1 classical machine learning, initially focusing on factors affecting Airbnb prices.</li><li>Considered enriching the approximately 48,000-listing dataset with NYC open data, subject to lecturer approval.</li><li>Agreed to propose business questions and vote through Telegram, and work asynchronously in parallel.</li></ul><h4>Team process and decisions</h4><ul><li>Julio established a GitHub Projects Kanban board for tasks and meeting tickets.</li><li>One reviewer per pull request, with a target three-day review turnaround; work should continue without unnecessary blocking.</li><li>Weekly meetings at the same time; the next meeting was planned for Saturday 15 August.</li><li>Meeting evidence to be kept as transcripts and summaries, without recordings.</li><li>Ask the lecturer whether external datasets and comparison across tracks were permitted.</li><li>Draft a long-form report before reducing it to the final word limit.</li></ul></article><article class="portfolio-evidence-record" id="meeting-2"><p class="unit-label">MEETING 02 / UNIT 06</p><h3>Meeting 2 — Baseline and work allocation</h3><h4>Progress and model review</h4><ul><li>Reviewed and merged Julio’s Random Forest baseline pull request, incorporating points of interest and subway-distance variables.</li><li>Observed that high-price deviations were widespread rather than concentrated in expected neighbourhoods.</li><li>Preferred tuning a suitable model rather than attempting indiscriminate comparisons.</li><li>Zee identified the need for an evaluation method within the notebook.</li></ul><h4>Tasks and team process</h4><ul><li>John-Jon to develop visualisations tied to notebook versions and hashes, including outputs in PR descriptions.</li><li>Zee to draft report outline and research supporting literature.</li><li>Julio to create a Google Doc in the shared Drive; dataset cleaning marked complete.</li><li>Patrick to add notes and arrange the next meeting.</li><li>Coding targeted for completion before drafting, visualisation integration and a Turnitin sandbox check.</li><li>Weekly meeting facilitation to rotate across the team.</li></ul></article><article class="portfolio-evidence-record" id="meeting-3"><p class="unit-label">MEETING 03 / UNIT 06</p><h3>Meeting 3 — Clustering review and revised question</h3><h4>My contribution: K-means clustering</h4><ul><li>I presented three clusters with listing counts, average prices, profiles and geographic distributions.</li><li>The team interpreted geographically overlapping clusters as market segments rather than distinct neighbourhood zones.</li><li>My clustering PR #26 was reviewed; requested changes included moving imports to the beginning, running pre-commit and calculating silhouette score on the full dataset rather than a 5,000-row sample.</li><li>I was assigned to address review comments, prepare the branch for integration, and draft the methodology section.</li></ul><h4>Validation and business question</h4><ul><li>Reviewed Julio’s PR #27 replacing in-sample residuals with five-fold out-of-fold predictions.</li><li>Added an NTA-and-room-type median-price baseline as a comparison for the Random Forest.</li><li>Removed review-derived features for the proposed cold-start use case, since new listings lack reviews.</li><li>Reframed from identifying allegedly overpriced listings to estimating a starting asking price and geographic pricing volatility.</li><li>Agreed that residual error reflects uncertainty and unobserved characteristics, not proof that an individual host has mispriced a listing.</li><li>PR integration might require review, merge ordering or rebasing.</li></ul><h4>Writing ownership</h4><ul><li>Julio: data preparation; Džemal: methodology; John-Jon: results and visualisations; Zee: business recommendations.</li><li>Patrick was proposed for introduction and conclusion, pending confirmation.</li><li>Targeted merged code, most graphics and a complete initial draft by the end of the following week.</li></ul></article><article class="portfolio-evidence-record" id="meeting-4"><p class="unit-label">MEETING 04 / UNIT 06</p><h3>Meeting 4 — Final writing and scope</h3><h4>Progress and decisions</h4><ul><li>With roughly one week left, further deep code review was deprioritised in favour of writing and graphics.</li><li>The business question was reworded to avoid the word “strictly”, since features included reviews and availability as well as spatial information.</li><li>The outline and most sections were drafted, with a conclusion still outstanding.</li><li>Five visualisations were selected for the main report from the shared Drive.</li><li>Planned to unify tone and formatting after completing the content and add remaining supporting literature.</li></ul><h4>Actions</h4><ul><li>Clean the code and submit the visualisation PR.</li><li>Draft the conclusion and conduct final styling and clarity checks.</li><li>Prepare the report for Turnitin and a midweek catch-up on Wednesday 2 September.</li><li>Target submission the following weekend.</li></ul></article><article class="portfolio-evidence-record" id="meeting-5"><p class="unit-label">MEETING 05 / UNIT 06</p><h3>Meeting 5 — Discrepancies and final-model positioning</h3><h4>Quality assurance findings</h4><ul><li>A strict cold-start claim conflicted with features that required existing review history, including number of reviews and reviews per month.</li><li>A cited $47.34 baseline MAE and 9.6% improvement were not reproducible from the latest PDF.</li><li>The verified Random Forest MAE was $42.79; the notebook and visuals needed a full rerun to reconcile outputs.</li></ul><h4>Decisions and actions</h4><ul><li>Dropped the strict cold-start framing in favour of a full-featured price model more suitable for established listings.</li><li>Merge the visuals PR, move imports to the top, and rerun the notebook before circulating the refreshed PDF.</li><li>Update the report, conclusion and notebook business question consistently.</li><li>Use Turnitin sandbox, resolve comments, check styling and exclude an appendix.</li></ul></article><article class="portfolio-evidence-record" id="meeting-6"><p class="unit-label">MEETING 06 / UNIT 06</p><h3>Meeting 6 — Submission preparation</h3><h4>Submission and repository</h4><ul><li>Submit the report after a Turnitin sandbox check.</li><li>Provide a PDF copy of the main notebook alongside the report for assessment access.</li><li>Resolve remaining PR conflicts and rerun the relevant work before submission.</li><li>Add the GitHub repository address beneath the module name on the cover page.</li><li>Plan to make the repository public after the submission deadline and request tutor access if needed.</li></ul><h4>Formatting and final checks</h4><ul><li>Use Arial 12 consistently throughout the report.</li><li>Alphabetise references and correct spacing and formatting inconsistencies.</li><li>Complete a final review of both report and notebook before submission.</li></ul></article></div></section><nav class="module-pagination"><div class="inner"><a class="page-prev" href="machine-learning.html"><strong>← Back to Machine Learning</strong></a></div></nav></main>
+<footer id="footer">
+<div class="inner portfolio-footer">
+<div>
+<p class="footer-eyebrow">A living learning portfolio</p>
+<p class="footer-summary">Documenting my journey from robotics and automation into artificial intelligence.</p>
+</div>
+<div class="footer-links">
+<a href="index.html">Modules</a><a href="landing.html">About</a><a href="generic.html">Approach</a>
+</div>
+<ul class="copyright">
+<li>© 2026 Džemal Jukić</li>
+<li>Design adapted from <a href="https://html5up.net" rel="noopener noreferrer" target="_blank">HTML5 UP</a> / Forty</li>
+</ul>
+</div>
+</footer>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

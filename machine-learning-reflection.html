@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<!--
+    Adapted from Forty by HTML5 UP (https://html5up.net/forty).
+    Original design licensed under Creative Commons Attribution 3.0.
+    See LICENSE.txt and original template credits in the footer.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Turning data into evidence through modelling, evaluation and critical reflection." name="description"/>
+<meta content="#171d32" name="theme-color"/>
+<title>Integrated reflection | Machine Learning | MSc AI Portfolio</title>
+<link href="assets/css/main.css" rel="stylesheet"/>
+<link href="assets/css/portfolio.css" rel="stylesheet"/>
+<noscript><link href="assets/css/noscript.css" rel="stylesheet"/></noscript>
+</head>
+<body class="is-preload page-module">
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="wrapper">
+<header class="alt style2" id="header">
+<a class="logo" href="index.html"><strong>DJ</strong> <span>MSc Artificial Intelligence</span></a>
+<nav><a aria-label="Open navigation menu" href="#menu">Menu</a></nav>
+</header>
+<nav aria-label="Main navigation" id="menu">
+<ul class="links">
+<li><a href="index.html">Home / All modules</a></li>
+<li><a href="launch-into-computing.html">Launch into Computing</a></li><li><a href="understanding-artificial-intelligence.html">Understanding Artificial Intelligence</a></li><li><a href="numerical-analysis.html">Numerical Analysis</a></li><li><a href="intelligent-agents.html">Intelligent Agents</a></li><li><a href="machine-learning.html">Machine Learning</a></li> <li><a href="landing.html">About me</a></li>
+<li><a href="generic.html">Portfolio approach</a></li>
+</ul>
+</nav>
+<section class="style2 portfolio-module-banner module-five" id="banner">
+<div class="inner">
+<span class="image"><img alt="" src="images/pic05.jpg"/></span>
+<p class="eyebrow"><span class="eyebrow-line"></span> MODULE 05   /   July 2026</p>
+<header class="major"><h1>Integrated reflection</h1></header>
+<div class="content"><p>What? So What? Now What? — development across the Machine Learning module.</p></div>
+
+</div>
+</section>
+<main id="main"><section class="portfolio-content"><div class="inner"><p class="eyebrow">Critical reflection · Rolfe et al. (2001)</p><header class="major"><h2>Learning and professional development</h2></header><div class="reflection-prose">
+<h2>What? — Experiences and Learning</h2>
+<p>Throughout the Machine Learning module, I developed my understanding of how algorithms are selected, trained and evaluated, while considering their ethical and professional implications. My learning progressed from correlation and regression to neural networks, image classification and model evaluation. The Unit 6 Airbnb group analysis and Unit 11 individual Fashion-MNIST project provided different opportunities to apply these concepts. This reflection follows Rolfe, Freshwater and Jasper’s (2001) What?–So What?–Now What? framework.</p>
+<p>In Unit 3, I ran notebooks covering correlation and linear, multiple and polynomial regression. Since I mainly followed the provided examples, these exercises introduced techniques rather than demonstrating independent experimentation. In Unit 5, calculating categorical dissimilarity made me consider how the representation of attributes affects comparisons. In Units 7 and 8, I explored perceptrons, multilayer networks and gradient descent, making small changes to parameters to observe their effects. These foundations supported my later work with more complex models.</p>
+<p>For the Unit 6 group project, we analysed Airbnb prices using Decision Tree, Random Forest and Gradient Boosting regression alongside K-means clustering. I contributed to model development, programming and evaluation. Collaboration was effective: we rotated responsibility for leading meetings, completed our allocated work and avoided significant deadline difficulties or conflict. In Unit 11, I independently compared HOG features with a Linear SVM against a convolutional neural network (CNN), investigating classification performance, robustness and explainability. Discussions on cyber resilience and AI writing systems also encouraged me to consider responsibilities beyond technical performance.</p>
+<h2>So What? — Critical Analysis</h2>
+<p>My most significant technical learning was that a model’s headline performance does not establish its suitability for deployment. In Unit 11, the CNN achieved a test macro F1 of 0.9204 compared with 0.8886 for HOG-SVM. However, Shirt remained difficult to classify, and robustness depended on the type of image degradation. The HOG-SVM tolerated some brightness and contrast changes better, while the CNN was more robust to Gaussian noise. This challenged the assumption that the model with the highest overall score is necessarily superior under every condition.</p>
+<p>The Unit 11 performance-measurement exercise reinforced the importance of evaluation design. Reducing the test size in an Iris example increased the ROC-AUC score, but this did not establish that the classifier had improved: the score was calculated on a different, smaller sample. I now better appreciate why cross-validation and separation of model selection from final testing are necessary to assess generalisation and avoid misleading comparisons (Krstajic et al., 2014). My individual project consequently used stratified five-fold validation and an untouched test set.</p>
+<p>Feedback on both major assessments exposed a recurring weakness in my academic practice. Although the professors recognised the technical quality of the work, both criticised insufficient critical analysis. I initially felt frustrated because the 1,000- and 1,500-word assessment limits made it difficult to cover every requirement while explaining technical methods and evaluating results. Nevertheless, I have received similar criticism in previous modules. I therefore recognise that the issue cannot be attributed solely to word limits: I tend to prioritise describing methodology and outcomes over interrogating assumptions, alternatives and consequences. The feedback on my individual assessment, despite its additional experiments, showed that adding analysis techniques does not automatically produce a stronger critical argument. More selective explanation and better prioritisation are needed, rather than simply more words.</p>
+<p>The group project also taught me that smooth collaboration is not identical to critical collaboration. Rotating meeting leadership and completing tasks helped us deliver effectively, but we could have used meetings more deliberately to challenge feature choices, modelling assumptions and business recommendations. Discussion forums offered a different kind of collaboration. Peers responding to my Industry 4.0 post distinguished preventing cyberattacks from maintaining operations after disruption. Later, responses to my AI-writing argument questioned whether human oversight alone addresses bias and whether non-deployment should sometimes be considered. My subsequent summaries incorporated these perspectives. The NIST AI Risk Management Framework’s emphasis on contextual assessment (Tabassi, 2023) helped me recognise that risk depends on the broader system and its use, not solely on model outputs. The reported bias of AI-text detectors against non-native English writers provides a concrete example (Liang et al., 2023).</p>
+<h2>Now What? — Applying the Learning</h2>
+<p>I intend to integrate critical evaluation into model development rather than adding it at the reporting stage. For future projects, I will maintain a decision log recording alternative algorithms, justification for selected features, validation choices, limitations and potential consequences. I will evaluate class-level performance, robustness and uncertainty, and interpret explainability outputs cautiously. Importantly, I will not treat a favourable metric as sufficient evidence for real-world reliability.</p>
+<p>To improve my academic writing, I will allocate space for critical analysis before drafting detailed methodology sections. I will use feedback from this and previous modules as a checklist, asking whether each major result is accompanied by an explanation, an alternative interpretation and a limitation. This should help me construct more convincing arguments within restrictive word limits.</p>
+<p>Professionally, these lessons apply to my work in robotics and warehouse automation, where unreliable software can interrupt physical operations. I want to consider resilience, human fallback and stakeholder consequences alongside efficiency. In future teams, I will also propose explicit discussion of assumptions and risks during meetings, even when delivery is progressing smoothly. My development goal is not only to build models that work, but to justify when, why and under what conditions they should be trusted.</p>
+</div><h2>References</h2><ol class="portfolio-references"><li>Krstajic, D., Buturovic, L.J., Leahy, D.E. and Thomas, S. (2014) ‘Cross-validation pitfalls when selecting and assessing regression and classification models’, <em>Journal of Cheminformatics</em>, 6, article 10. Available at: <a href="https://doi.org/10.1186/1758-2946-6-10">https://doi.org/10.1186/1758-2946-6-10</a>.</li><li>Liang, W., Yuksekgonul, M., Mao, Y., Wu, E. and Zou, J. (2023) ‘GPT detectors are biased against non-native English writers’, <em>Patterns</em>, 4(7), article 100779. Available at: <a href="https://doi.org/10.1016/j.patter.2023.100779">https://doi.org/10.1016/j.patter.2023.100779</a>.</li><li>Rolfe, G., Freshwater, D. and Jasper, M. (2001) <em>Critical reflection in nursing and the helping professions: a user's guide</em>. Basingstoke: Palgrave Macmillan.</li><li>Tabassi, E. (2023) <em>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</em>. NIST AI 100-1. Gaithersburg, MD: National Institute of Standards and Technology. Available at: <a href="https://doi.org/10.6028/NIST.AI.100-1">https://doi.org/10.6028/NIST.AI.100-1</a>.</li></ol><p><a class="button" href="machine-learning.html">← Back to Machine Learning evidence</a></p></div></section></main>
+<footer id="footer">
+<div class="inner portfolio-footer">
+<div>
+<p class="footer-eyebrow">A living learning portfolio</p>
+<p class="footer-summary">Documenting my journey from robotics and automation into artificial intelligence.</p>
+</div>
+<div class="footer-links">
+<a href="index.html">Modules</a><a href="landing.html">About</a><a href="generic.html">Approach</a>
+</div>
+<ul class="copyright">
+<li>© 2026 Džemal Jukić</li>
+<li>Design adapted from <a href="https://html5up.net" rel="noopener noreferrer" target="_blank">HTML5 UP</a> / Forty</li>
+</ul>
+</div>
+</footer>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
